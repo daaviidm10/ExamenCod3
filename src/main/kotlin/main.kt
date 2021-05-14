@@ -1,4 +1,4 @@
-Ejer3
+
 import kotlin.random.Random
 
 master
