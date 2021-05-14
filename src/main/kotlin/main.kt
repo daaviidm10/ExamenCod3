@@ -9,5 +9,5 @@ fun main(args: Array<String>) {
     val array = Ejer2(10){Random.nextInt(50, 250)}
         array.array.forEach { println(it) }
     }
-
+    val array2 = Ejer3().listaImpares(Ejer2(10, {Random.nextInt(50, 250)}).array)
 }
