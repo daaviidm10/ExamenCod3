@@ -1,3 +1,8 @@
+import java.util.*
+import java.util.Arrays.toString as toString1
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+    for (tablamultiplicar in Ejer1(10).array) {
+        println(tablamultiplicar)
+    }
 }
